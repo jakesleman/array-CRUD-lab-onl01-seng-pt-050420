@@ -8,9 +8,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  famous_cats = ["lil bub", "grumpy cat", "maru", "nala"]
   
-  famous_cats << element
+  array << element
   
 end
 
@@ -21,7 +20,7 @@ end
 
 def remove_element_from_end_of_array(array)
   famous_cats = ["lil bub", "grumpy cat", "maru", "nala"]
-  binding.pry
+  
   famous_cats.pop
 end
 
